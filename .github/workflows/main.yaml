@@ -3,11 +3,11 @@ name: Run the tests, Build the image
 on:
   push:
     branches:
-      - master
+      - main
 
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   build:
